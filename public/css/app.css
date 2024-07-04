@@ -12273,6 +12273,7 @@ nav .left-nav h1, nav .left-nav .h1 {
 }
 
 .section8 {
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12292,6 +12293,77 @@ nav .left-nav h1, nav .left-nav .h1 {
 }
 .section8 iframe {
   width: 100%;
+}
+
+.accordion {
+  padding-top: 100px;
+}
+.accordion h3, .accordion .h3 {
+  text-align: center;
+  font-family: statit;
+}
+.accordion h3 span, .accordion .h3 span {
+  font-family: statit;
+  color: #ffb03b;
+}
+.accordion .content {
+  padding-top: 30px;
+}
+.accordion button {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 2px solid #ffb03b;
+}
+.accordion button:hover {
+  background-color: #ffb03b;
+  color: white;
+}
+
+.section10 .nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.section10 .nav a:hover {
+  color: #da9734;
+}
+
+.section10 .allcontent {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.section10 .h1 {
+  font-family: statit;
+  text-align: center;
+}
+.section10 .h1 span {
+  font-family: statit;
+  color: #da9734;
+}
+
+.section10 .para1 {
+  text-align: center;
+  color: grey;
+}
+
+.section10 .allcontent h1, .section10 .allcontent .h1 {
+  font-family: statit;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.section10 .allcontent p {
+  color: grey;
+}
+
+.section10 {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 /*# sourceMappingURL=app.css.map */

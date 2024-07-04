@@ -11905,10 +11905,6 @@ nav .left-nav h1, nav .left-nav .h1 {
   background-color: #ffa012;
 }
 
-label, input {
-  display: none;
-}
-
 @media (max-width: 430px) {
   nav .right-nav .nav-links {
     display: none;
@@ -12083,7 +12079,7 @@ label, input {
   border: 2px solid white;
   display: flex;
   flex-direction: column;
-  padding: 30px 20px 1px;
+  padding-inline: 40px;
   gap: 13px;
   box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.19);
 }
@@ -12091,6 +12087,7 @@ label, input {
   font-weight: bold;
   font-size: 30px;
   color: #da9734;
+  padding-top: 50px;
 }
 .section3 .cards-sec3 .card-sec3 h4, .section3 .cards-sec3 .card-sec3 .h4 {
   font-family: statit;
@@ -12105,6 +12102,8 @@ label, input {
 }
 .section3 .cards-sec3 .card-sec3:hover h5, .section3 .cards-sec3 .card-sec3:hover .h5 {
   color: white;
+  padding-top: 30px;
+  transition: 0.5s;
 }
 .section3 .cards-sec3 .card-sec3:hover p {
   color: white;
@@ -12145,6 +12144,105 @@ label, input {
 
 .section4 p {
   color: white;
+}
+
+.section5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section5 h1, .section5 .h1 {
+  font-family: statit;
+}
+.section5 span {
+  font-family: statit;
+  color: #ffb03b;
+}
+.section5 p {
+  text-align: center;
+  color: grey;
+}
+.section5 .forms {
+  padding-top: 40px;
+  border: 2px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  width: 80%;
+}
+.section5 .forms .input-form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.section5 .forms .input-form input {
+  width: 30%;
+  padding: 6px 12px;
+}
+.section5 .forms .input-form2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+.section5 .forms .input-form2 textarea {
+  width: 94%;
+}
+.section5 .forms .input-form2 button {
+  border: none;
+  padding: 7px;
+  background-color: rgba(255, 160, 18, 0.7764705882);
+  border-radius: 20px;
+  color: white;
+  padding-inline: 15px;
+}
+.section5 .forms .input-form2 button:hover {
+  background-color: #ffa012;
+}
+
+.section6 h1, .section6 .h1 {
+  font-family: statit;
+  font-size: 35px;
+}
+.section6 h1 span, .section6 .h1 span {
+  font-family: statit;
+  color: #da9734;
+}
+
+.section6 p {
+  color: grey;
+}
+
+.section6 {
+  padding-top: 40px;
+  text-align: center;
+}
+.section6 .sec6-imgs {
+  padding: 10px;
+}
+.section6 .sec6-imgs .row-img {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding-bottom: 5px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.section6 .sec6-imgs .row-img .zoom-img {
+  width: 25vw;
+  overflow: hidden;
+  position: relative;
+  transition: 0.3s;
+}
+.section6 .sec6-imgs .row-img img {
+  width: 100%;
+}
+.section6 .sec6-imgs .row-img img:hover {
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=app.css.map */

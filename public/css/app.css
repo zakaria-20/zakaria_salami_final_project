@@ -11982,6 +11982,29 @@ label, input {
   gap: 13px;
 }
 
+@media (max-width: 430px) {
+  .section {
+    width: fit-content;
+  }
+  .section1 {
+    display: flex !important;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  .section1 .section1-text {
+    width: 500vw;
+    height: 16vh;
+  }
+  .section1 .section1-text h1, .section1 .section1-text .h1 {
+    margin-top: 20px;
+  }
+  .section1 .section1-text p {
+    font-size: 10px;
+  }
+  .section1 .section1-btns {
+    padding-top: 50px;
+  }
+}
 .section2 {
   padding-top: 50px;
   display: flex;
@@ -12011,10 +12034,26 @@ label, input {
   color: black;
 }
 
+@media (max-width: 430px) {
+  .section2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section2 .left-sec2 video {
+    width: fit-content;
+  }
+  .section2 .right-sec2 {
+    width: fit-content;
+  }
+  .section2 .left-sec2 video {
+    width: 100vw;
+  }
+}
 .section3 {
   display: flex;
   flex-direction: column;
   padding-top: 40px;
+  gap: 20px;
 }
 .section3 .div-sec3 {
   display: flex;
@@ -12036,7 +12075,76 @@ label, input {
 }
 .section3 .cards-sec3 {
   display: flex;
-  gap: 100px;
+  justify-content: space-evenly;
+}
+
+.section3 .cards-sec3 .card-sec3 {
+  background-color: white;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px 1px;
+  gap: 13px;
+  box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.19);
+}
+.section3 .cards-sec3 .card-sec3 h5, .section3 .cards-sec3 .card-sec3 .h5 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #da9734;
+}
+.section3 .cards-sec3 .card-sec3 h4, .section3 .cards-sec3 .card-sec3 .h4 {
+  font-family: statit;
+  font-weight: bold;
+}
+.section3 .cards-sec3 .card-sec3 p {
+  color: grey;
+}
+.section3 .cards-sec3 .card-sec3:hover {
+  background-color: #da9734;
+  color: white;
+}
+.section3 .cards-sec3 .card-sec3:hover h5, .section3 .cards-sec3 .card-sec3:hover .h5 {
+  color: white;
+}
+.section3 .cards-sec3 .card-sec3:hover p {
+  color: white;
+}
+
+@media (max-width: 430px) {
+  .section3 .cards-sec3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.section4 {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/testimonials-bg.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+.section4 .right-sec4 .icon-text-sec4 {
+  display: flex;
+  gap: 6px;
+}
+
+.section4 .right-sec4 .part1-sec4 h5, .section4 .right-sec4 .part1-sec4 .h5 {
+  font-family: statit;
+  color: #da9734;
+  font-weight: bold;
+}
+.section4 .right-sec4 .part1-sec4 p span {
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 2px solid #da9734;
+}
+
+.section4 p {
+  color: white;
 }
 
 /*# sourceMappingURL=app.css.map */

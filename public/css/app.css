@@ -11915,7 +11915,7 @@ nav .right-nav input, label {
     position: fixed;
     top: 10%;
     right: 5%;
-    background: red;
+    background-color: red;
     flex-direction: column;
     justify-content: start;
     align-items: start;
@@ -12583,8 +12583,39 @@ nav .right-nav input, label {
 
 @media (max-width: 430px) {
   .gallery {
-    display: none;
+    height: 500vh;
   }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  background-color: rgba(7, 7, 6, 0.9607843137);
+  gap: 20px;
+}
+footer h1, footer .h1 {
+  font-family: statit;
+  color: #ffb03b;
+}
+footer p {
+  color: white;
+}
+footer .icons .icon {
+  padding: 6px;
+  border-radius: 50%;
+  background-color: grey;
+}
+footer .icons .icon:hover {
+  background-color: #ffb03b;
+}
+footer .text {
+  text-align: center;
+}
+footer .icons {
+  display: flex;
+  gap: 10px;
 }
 
 /*# sourceMappingURL=app.css.map */

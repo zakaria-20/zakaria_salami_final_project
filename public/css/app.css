@@ -11913,7 +11913,7 @@ nav .right-nav input, label {
   nav .right-nav .nav-links {
     display: none;
     position: fixed;
-    top: 5%;
+    top: 10%;
     right: 5%;
     background: red;
     flex-direction: column;
@@ -12557,6 +12557,17 @@ nav .right-nav input, label {
   color: grey;
 }
 
+@media (max-width: 430px) {
+  .section11 .content-information {
+    flex-direction: column;
+  }
+  .section11 .form .inpt-form {
+    flex-direction: column;
+  }
+  .section11 .form .inpt-form input {
+    width: 96%;
+  }
+}
 .gallery {
   padding-top: 12vh;
   background-image: url(../img/chefs-bg.jpg);

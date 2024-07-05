@@ -5,8 +5,8 @@
     gap: 20px
     justify-content: center
     align-items: center
-    background-image: url(../img/testimonials-bg.jpg)
-    background-size: cover
+    
+    
     height: 500px
 .section4 .right-sec4 .icon-text-sec4
     display: flex
@@ -22,4 +22,25 @@
         border-bottom: 2px solid #da9734
 .section4 p
     color: white
+.carousel-background
+    background-image: url(../img/testimonials-bg.jpg)
+    background-size: cover
+    
+@media (max-width:428px)
+    .section4
+        flex-direction: column
+        gap: 1px
+    .carousel-background
+        background-image: url(../img/testimonials-bg.jpg)
+        background-size: cover
+        
+        width: fit-content
+         height: 100vh
+    .section4 .left-sec4 img
+        width: 120%
+        height: 94%
+        padding-inline: 10px
+        padding-left: 20px
+    .section4 .right-sec4
+        width: fit-content
     

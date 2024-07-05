@@ -1,6 +1,7 @@
 .section6 h1
     font-family: statit
     font-size: 35px
+    font-weight: bold
     span
         font-family: statit
         color: #da9734
@@ -28,6 +29,19 @@
                 width: 100%
                 &:hover
                     transform: scale(1.05)
-            
-        
+.section6
+    padding-top: 25vh
+@media (max-width:428px)
+    .section6 .sec6-imgs .row-img
+        display: flex
+        flex-direction: column
+        .zoom-img
+            width: 74vw
+            overflow: hidden
+            position: relative
+            transition: 0.3s
+    .section6 p
+        text-align: center
+        font-size: 11px
     
+            
